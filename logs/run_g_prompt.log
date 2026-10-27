@@ -1,0 +1,32 @@
+D:\作业\大模型作业七\.venv\Lib\site-packages\diffusers\utils\deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading pipeline components...:  40%|████      | 2/5 [00:00<00:01,  2.43it/s]
+
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+
+Loading weights:  19%|█▊        | 69/372 [00:00<00:00, 677.08it/s][A
+
+Loading weights:  37%|███▋      | 138/372 [00:00<00:00, 681.26it/s][A
+
+Loading weights:  56%|█████▌    | 207/372 [00:00<00:00, 679.01it/s][A
+
+Loading weights:  74%|███████▍  | 275/372 [00:00<00:00, 629.29it/s][A
+
+Loading weights:  92%|█████████▏| 341/372 [00:00<00:00, 634.23it/s][A
+Loading weights: 100%|██████████| 372/372 [00:00<00:00, 657.83it/s]
+
+Loading pipeline components...:  60%|██████    | 3/5 [00:01<00:01,  1.75it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  3.20it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.77it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s]
+ 17%|█▋        | 1/6 [00:04<00:24,  4.90s/it]
+ 33%|███▎      | 2/6 [00:10<00:20,  5.24s/it]
+ 50%|█████     | 3/6 [00:14<00:14,  4.89s/it]
+ 67%|██████▋   | 4/6 [00:20<00:10,  5.12s/it]
+ 83%|████████▎ | 5/6 [00:25<00:05,  5.04s/it]
+100%|██████████| 6/6 [00:31<00:00,  5.44s/it]
+100%|██████████| 6/6 [00:31<00:00,  5.24s/it]
+RUN_SUMMARY {"name": "g_prompt", "res": 512, "steps": 6, "cfg": 1.2, "control_strength": 0.9, "seed": 42, "threads": 32, "dtype": "fp32", "scheduler": "EulerDiscreteScheduler", "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU", "control_image": "demo_depth_0001.png", "load_s": 2.2645375728607178, "step_times_s": [5.278221368789673, 5.482745170593262, 4.48086142539978, 5.470074892044067, 4.898735284805298, 6.200086832046509], "per_step_s": 5.301787495613098, "sample_s": 31.811779499053955, "vae_s": 4.858047008514404, "total_s": 36.66982841491699, "peak_rss_mb": 8435.44140625, "output": "g_prompt_photoreal.png"}

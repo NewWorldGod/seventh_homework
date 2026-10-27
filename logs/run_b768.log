@@ -1,0 +1,30 @@
+D:\作业\大模型作业七\.venv\Lib\site-packages\diffusers\utils\deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading pipeline components...:  40%|████      | 2/5 [00:00<00:00, 10.39it/s]
+Loading pipeline components...:  80%|████████  | 4/5 [00:01<00:00,  3.48it/s]
+
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+
+Loading weights:  19%|█▉        | 72/372 [00:00<00:00, 715.33it/s][A
+
+Loading weights:  39%|███▊      | 144/372 [00:00<00:00, 694.42it/s][A
+
+Loading weights:  59%|█████▊    | 218/372 [00:00<00:00, 709.84it/s][A
+
+Loading weights:  78%|███████▊  | 290/372 [00:00<00:00, 683.09it/s][A
+
+Loading weights:  97%|█████████▋| 359/372 [00:00<00:00, 674.53it/s][A
+Loading weights: 100%|██████████| 372/372 [00:00<00:00, 700.18it/s]
+
+Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.43it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.87it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+ 25%|██▌       | 1/4 [00:11<00:33, 11.01s/it]
+ 50%|█████     | 2/4 [00:23<00:23, 11.71s/it]
+ 75%|███████▌  | 3/4 [00:36<00:12, 12.59s/it]
+100%|██████████| 4/4 [00:49<00:00, 12.54s/it]
+100%|██████████| 4/4 [00:49<00:00, 12.33s/it]
+RUN_SUMMARY {"name": "b768", "res": 768, "steps": 4, "cfg": 1.2, "control_strength": 0.9, "seed": 42, "threads": 32, "dtype": "fp32", "scheduler": "EulerDiscreteScheduler", "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU", "control_image": "demo768_depth_0001.png", "load_s": 2.166417360305786, "step_times_s": [11.396353244781494, 12.20109248161316, 13.62573504447937, 12.470717906951904], "per_step_s": 12.423474669456482, "sample_s": 49.696922302246094, "vae_s": 10.217750310897827, "total_s": 59.91467523574829, "peak_rss_mb": 9983.78515625, "output": "b768_photoreal.png"}

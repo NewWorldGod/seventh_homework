@@ -1,0 +1,32 @@
+D:\作业\大模型作业七\.venv\Lib\site-packages\diffusers\utils\deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading pipeline components...:  60%|██████    | 3/5 [00:00<00:00,  3.01it/s]
+
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+
+Loading weights:  17%|█▋        | 64/372 [00:00<00:00, 557.29it/s][A
+
+Loading weights:  32%|███▏      | 120/372 [00:00<00:00, 551.36it/s][A
+
+Loading weights:  48%|████▊     | 178/372 [00:00<00:00, 559.63it/s][A
+
+Loading weights:  63%|██████▎   | 234/372 [00:00<00:00, 540.36it/s][A
+
+Loading weights:  78%|███████▊  | 289/372 [00:00<00:00, 536.42it/s][A
+
+Loading weights:  92%|█████████▏| 343/372 [00:00<00:00, 522.61it/s][A
+Loading weights: 100%|██████████| 372/372 [00:00<00:00, 540.38it/s]
+
+Loading pipeline components...:  80%|████████  | 4/5 [00:01<00:00,  1.99it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.59it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.51it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+ 25%|██▌       | 1/4 [00:04<00:14,  4.87s/it]
+ 50%|█████     | 2/4 [00:09<00:09,  4.84s/it]
+ 75%|███████▌  | 3/4 [00:14<00:04,  4.94s/it]
+100%|██████████| 4/4 [00:20<00:00,  5.23s/it]
+100%|██████████| 4/4 [00:20<00:00,  5.10s/it]
+RUN_SUMMARY {"name": "a512", "res": 512, "steps": 4, "cfg": 1.2, "control_strength": 0.9, "seed": 42, "threads": 32, "dtype": "fp32", "scheduler": "EulerDiscreteScheduler", "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU", "control_image": "demo_depth_0001.png", "load_s": 2.388251304626465, "step_times_s": [5.262439012527466, 4.819268465042114, 5.050528526306152, 5.675118923187256], "per_step_s": 5.201838731765747, "sample_s": 20.80847954750061, "vae_s": 4.6319499015808105, "total_s": 25.440431833267212, "peak_rss_mb": 8436.6953125, "output": "a512_photoreal.png"}

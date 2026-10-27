@@ -1,0 +1,13 @@
+# 作业七 · 白膜转写实纯 CPU 深度控制流水线
+# Python 3.14；模型权重与 Blender 不在此仓库内，见 README
+torch==2.14.0
+diffusers==0.42.1
+transformers==5.17.0
+accelerate==1.15.0
+safetensors==0.8.0
+huggingface_hub>=1.33.0
+Pillow==12.2.0
+numpy==2.4.4
+scipy==1.18.1
+matplotlib==3.10.9
+python-docx==1.2.0

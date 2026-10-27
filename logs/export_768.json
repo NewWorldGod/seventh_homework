@@ -1,0 +1,24 @@
+{
+  "res": 768,
+  "samples": 64,
+  "name": "demo768",
+  "depth_percentiles": {
+    "p2": 0.28970980405807495,
+    "p98": 0.4061814117431641,
+    "raw_min": 0.11101639270782471,
+    "raw_max": 1.0
+  },
+  "mask_coverage": 0.16548665364583334,
+  "render_seconds": {
+    "depth": 1.1969764232635498,
+    "normal": 1.1302201747894287,
+    "clay": 5.901402235031128,
+    "alpha": 0.09765887260437012
+  },
+  "outputs": {
+    "depth": "demo768_depth_0001.png",
+    "normal": "demo768_normal_0001.png",
+    "clay": "demo768_clay.png",
+    "alpha": "demo768_alpha.png"
+  }
+}

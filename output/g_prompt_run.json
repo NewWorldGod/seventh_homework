@@ -1,0 +1,28 @@
+{
+  "name": "g_prompt",
+  "res": 512,
+  "steps": 6,
+  "cfg": 1.2,
+  "control_strength": 0.9,
+  "seed": 42,
+  "threads": 32,
+  "dtype": "fp32",
+  "scheduler": "EulerDiscreteScheduler",
+  "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU",
+  "control_image": "demo_depth_0001.png",
+  "load_s": 2.2645375728607178,
+  "step_times_s": [
+    5.278221368789673,
+    5.482745170593262,
+    4.48086142539978,
+    5.470074892044067,
+    4.898735284805298,
+    6.200086832046509
+  ],
+  "per_step_s": 5.301787495613098,
+  "sample_s": 31.811779499053955,
+  "vae_s": 4.858047008514404,
+  "total_s": 36.66982841491699,
+  "peak_rss_mb": 8435.44140625,
+  "output": "g_prompt_photoreal.png"
+}

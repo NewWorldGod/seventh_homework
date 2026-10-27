@@ -1,0 +1,38 @@
+D:\作业\大模型作业七\.venv\Lib\site-packages\diffusers\utils\deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading pipeline components...:  40%|████      | 2/5 [00:00<00:00, 17.72it/s]
+Loading pipeline components...:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s]
+
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+
+Loading weights:  13%|█▎        | 48/372 [00:00<00:00, 475.51it/s][A
+
+Loading weights:  28%|██▊       | 104/372 [00:00<00:00, 491.31it/s][A
+
+Loading weights:  42%|████▏     | 158/372 [00:00<00:00, 504.94it/s][A
+
+Loading weights:  56%|█████▋    | 210/372 [00:00<00:00, 502.35it/s][A
+
+Loading weights:  70%|███████   | 261/372 [00:00<00:00, 482.97it/s][A
+
+Loading weights:  84%|████████▍ | 312/372 [00:00<00:00, 489.85it/s][A
+
+Loading weights:  99%|█████████▉| 368/372 [00:00<00:00, 511.91it/s][A
+Loading weights: 100%|██████████| 372/372 [00:00<00:00, 505.81it/s]
+
+Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.01it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.46it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s]
+ 12%|█▎        | 1/8 [00:05<00:36,  5.19s/it]
+ 25%|██▌       | 2/8 [00:10<00:30,  5.14s/it]
+ 38%|███▊      | 3/8 [00:15<00:25,  5.08s/it]
+ 50%|█████     | 4/8 [00:21<00:21,  5.42s/it]
+ 62%|██████▎   | 5/8 [00:27<00:17,  5.85s/it]
+ 75%|███████▌  | 6/8 [00:33<00:11,  5.80s/it]
+ 88%|████████▊ | 7/8 [00:38<00:05,  5.52s/it]
+100%|██████████| 8/8 [00:43<00:00,  5.22s/it]
+100%|██████████| 8/8 [00:43<00:00,  5.39s/it]
+RUN_SUMMARY {"name": "c512s8", "res": 512, "steps": 8, "cfg": 1.2, "control_strength": 0.9, "seed": 42, "threads": 32, "dtype": "fp32", "scheduler": "EulerDiscreteScheduler", "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU", "control_image": "demo_depth_0001.png", "load_s": 2.4423983097076416, "step_times_s": [5.639747858047485, 5.104156017303467, 5.013669490814209, 5.942399263381958, 6.619840145111084, 5.6848695278167725, 4.941658973693848, 4.596881866455078], "per_step_s": 5.442902892827988, "sample_s": 43.57123613357544, "vae_s": 4.047300338745117, "total_s": 47.61853861808777, "peak_rss_mb": 8667.24609375, "output": "c512s8_photoreal.png"}

@@ -1,0 +1,26 @@
+{
+  "name": "e_cfg7",
+  "res": 512,
+  "steps": 4,
+  "cfg": 7.0,
+  "control_strength": 0.9,
+  "seed": 42,
+  "threads": 32,
+  "dtype": "fp32",
+  "scheduler": "EulerDiscreteScheduler",
+  "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU",
+  "control_image": "demo_depth_0001.png",
+  "load_s": 2.1963133811950684,
+  "step_times_s": [
+    4.440185308456421,
+    4.344839572906494,
+    4.354715824127197,
+    4.3718791007995605
+  ],
+  "per_step_s": 4.377904951572418,
+  "sample_s": 17.512457847595215,
+  "vae_s": 3.9521918296813965,
+  "total_s": 21.46465229988098,
+  "peak_rss_mb": 8902.9140625,
+  "output": "e_cfg7_photoreal.png"
+}

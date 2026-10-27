@@ -1,0 +1,18 @@
+# 大体积资产与本地环境，不入库
+models/
+tools/
+.venv/
+_work/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Blender 自动备份
+*.blend1
+output/_tmp/
+
+# 系统
+.DS_Store
+Thumbs.db

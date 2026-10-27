@@ -1,0 +1,26 @@
+{
+  "name": "b768",
+  "res": 768,
+  "steps": 4,
+  "cfg": 1.2,
+  "control_strength": 0.9,
+  "seed": 42,
+  "threads": 32,
+  "dtype": "fp32",
+  "scheduler": "EulerDiscreteScheduler",
+  "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU",
+  "control_image": "demo768_depth_0001.png",
+  "load_s": 2.166417360305786,
+  "step_times_s": [
+    11.396353244781494,
+    12.20109248161316,
+    13.62573504447937,
+    12.470717906951904
+  ],
+  "per_step_s": 12.423474669456482,
+  "sample_s": 49.696922302246094,
+  "vae_s": 10.217750310897827,
+  "total_s": 59.91467523574829,
+  "peak_rss_mb": 9983.78515625,
+  "output": "b768_photoreal.png"
+}

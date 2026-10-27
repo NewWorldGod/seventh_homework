@@ -1,0 +1,26 @@
+{
+  "name": "a512",
+  "res": 512,
+  "steps": 4,
+  "cfg": 1.2,
+  "control_strength": 0.9,
+  "seed": 42,
+  "threads": 32,
+  "dtype": "fp32",
+  "scheduler": "EulerDiscreteScheduler",
+  "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU",
+  "control_image": "demo_depth_0001.png",
+  "load_s": 2.388251304626465,
+  "step_times_s": [
+    5.262439012527466,
+    4.819268465042114,
+    5.050528526306152,
+    5.675118923187256
+  ],
+  "per_step_s": 5.201838731765747,
+  "sample_s": 20.80847954750061,
+  "vae_s": 4.6319499015808105,
+  "total_s": 25.440431833267212,
+  "peak_rss_mb": 8436.6953125,
+  "output": "a512_photoreal.png"
+}

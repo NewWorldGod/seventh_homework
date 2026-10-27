@@ -1,0 +1,103 @@
+{
+  "alpha_coverage": 0.16547393798828125,
+  "runs": [
+    {
+      "name": "a512",
+      "res": 512,
+      "steps": 4,
+      "cfg": 1.2,
+      "control_strength": 0.9,
+      "depth_spearman": 0.2836,
+      "edge_chamfer_depth_to_photo_px": 1.855,
+      "edge_chamfer_photo_to_depth_px": 25.48,
+      "sample_s": 20.80847954750061,
+      "vae_s": 4.6319499015808105,
+      "total_s": 25.440431833267212,
+      "peak_rss_mb": 8436.7
+    },
+    {
+      "name": "b768",
+      "res": 768,
+      "steps": 4,
+      "cfg": 1.2,
+      "control_strength": 0.9,
+      "depth_spearman": 0.5921,
+      "edge_chamfer_depth_to_photo_px": 3.464,
+      "edge_chamfer_photo_to_depth_px": 88.926,
+      "sample_s": 49.696922302246094,
+      "vae_s": 10.217750310897827,
+      "total_s": 59.91467523574829,
+      "peak_rss_mb": 9983.8
+    },
+    {
+      "name": "c512s8",
+      "res": 512,
+      "steps": 8,
+      "cfg": 1.2,
+      "control_strength": 0.9,
+      "depth_spearman": 0.4896,
+      "edge_chamfer_depth_to_photo_px": 2.603,
+      "edge_chamfer_photo_to_depth_px": 48.124,
+      "sample_s": 43.57123613357544,
+      "vae_s": 4.047300338745117,
+      "total_s": 47.61853861808777,
+      "peak_rss_mb": 8667.2
+    },
+    {
+      "name": "d_cn05",
+      "res": 512,
+      "steps": 4,
+      "cfg": 1.2,
+      "control_strength": 0.5,
+      "depth_spearman": -0.0655,
+      "edge_chamfer_depth_to_photo_px": 4.185,
+      "edge_chamfer_photo_to_depth_px": 32.235,
+      "sample_s": 17.282912254333496,
+      "vae_s": 4.286393642425537,
+      "total_s": 21.569308757781982,
+      "peak_rss_mb": 8902.8
+    },
+    {
+      "name": "e_cfg7",
+      "res": 512,
+      "steps": 4,
+      "cfg": 7.0,
+      "control_strength": 0.9,
+      "depth_spearman": 0.834,
+      "edge_chamfer_depth_to_photo_px": 2.877,
+      "edge_chamfer_photo_to_depth_px": 14.718,
+      "sample_s": 17.512457847595215,
+      "vae_s": 3.9521918296813965,
+      "total_s": 21.46465229988098,
+      "peak_rss_mb": 8902.9
+    },
+    {
+      "name": "f_cn00",
+      "res": 512,
+      "steps": 4,
+      "cfg": 1.2,
+      "control_strength": 0.0,
+      "depth_spearman": -0.0893,
+      "edge_chamfer_depth_to_photo_px": 5.724,
+      "edge_chamfer_photo_to_depth_px": 40.221,
+      "sample_s": 21.755369424819946,
+      "vae_s": 5.343074560165405,
+      "total_s": 27.0984468460083,
+      "peak_rss_mb": 8594.9
+    },
+    {
+      "name": "g_prompt",
+      "res": 512,
+      "steps": 6,
+      "cfg": 1.2,
+      "control_strength": 0.9,
+      "depth_spearman": 0.8743,
+      "edge_chamfer_depth_to_photo_px": 3.749,
+      "edge_chamfer_photo_to_depth_px": 27.255,
+      "sample_s": 31.811779499053955,
+      "vae_s": 4.858047008514404,
+      "total_s": 36.66982841491699,
+      "peak_rss_mb": 8435.4
+    }
+  ]
+}

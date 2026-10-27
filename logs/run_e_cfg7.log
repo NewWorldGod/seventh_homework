@@ -1,0 +1,27 @@
+D:\作业\大模型作业七\.venv\Lib\site-packages\diffusers\utils\deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading pipeline components...:  40%|████      | 2/5 [00:00<00:00, 11.62it/s]
+
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+
+Loading weights:  22%|██▏       | 82/372 [00:00<00:00, 803.27it/s][A
+
+Loading weights:  44%|████▍     | 163/372 [00:00<00:00, 734.34it/s][A
+
+Loading weights:  66%|██████▌   | 246/372 [00:00<00:00, 766.75it/s][A
+
+Loading weights:  87%|████████▋ | 324/372 [00:00<00:00, 748.53it/s][A
+Loading weights: 100%|██████████| 372/372 [00:00<00:00, 769.45it/s]
+
+Loading pipeline components...:  80%|████████  | 4/5 [00:01<00:00,  1.99it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.78it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+ 25%|██▌       | 1/4 [00:04<00:12,  4.09s/it]
+ 50%|█████     | 2/4 [00:08<00:08,  4.24s/it]
+ 75%|███████▌  | 3/4 [00:12<00:04,  4.29s/it]
+100%|██████████| 4/4 [00:17<00:00,  4.32s/it]
+100%|██████████| 4/4 [00:17<00:00,  4.29s/it]
+RUN_SUMMARY {"name": "e_cfg7", "res": 512, "steps": 4, "cfg": 7.0, "control_strength": 0.9, "seed": 42, "threads": 32, "dtype": "fp32", "scheduler": "EulerDiscreteScheduler", "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU", "control_image": "demo_depth_0001.png", "load_s": 2.1963133811950684, "step_times_s": [4.440185308456421, 4.344839572906494, 4.354715824127197, 4.3718791007995605], "per_step_s": 4.377904951572418, "sample_s": 17.512457847595215, "vae_s": 3.9521918296813965, "total_s": 21.46465229988098, "peak_rss_mb": 8902.9140625, "output": "e_cfg7_photoreal.png"}

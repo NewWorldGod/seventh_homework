@@ -1,0 +1,26 @@
+{
+  "name": "d_cn05",
+  "res": 512,
+  "steps": 4,
+  "cfg": 1.2,
+  "control_strength": 0.5,
+  "seed": 42,
+  "threads": 32,
+  "dtype": "fp32",
+  "scheduler": "EulerDiscreteScheduler",
+  "backend": "diffusers 0.42.1 / PyTorch 2.14.0+cu130 / CPU",
+  "control_image": "demo_depth_0001.png",
+  "load_s": 2.2437710762023926,
+  "step_times_s": [
+    4.740836143493652,
+    4.291787624359131,
+    4.118008613586426,
+    4.131456613540649
+  ],
+  "per_step_s": 4.320522248744965,
+  "sample_s": 17.282912254333496,
+  "vae_s": 4.286393642425537,
+  "total_s": 21.569308757781982,
+  "peak_rss_mb": 8902.765625,
+  "output": "d_cn05_photoreal.png"
+}
